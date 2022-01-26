@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    /*
+      1、类中的构造器不是必须写的，要对实例进行初始化操作，如添加指定属性时才写
+      2、如果A类继承了B类，且A类中写了构造器，
+    */
+    class Person {
+      constructor(name, age) {
+        this.name = name
+        this.age = age
+      }
+      speak() {
+        console.log("说话");
+      }
+    }
+    class Student extends Person {
+      constructor(name, age, grade) {
+        super(name, age)
+        this.grade = grade
+      }
+    }
+    const p1 = new Person('zhishouH', 20)
+    const s1 = new Student('小张', 15, '高一')
+    console.log(s1);
+
+  </script>
+</body>
+
+</html>
