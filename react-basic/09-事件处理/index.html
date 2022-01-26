@@ -20,12 +20,12 @@
     class Demo extends React.Component {
       // event.target
       // event.preventDefault() 阻止默认事件 
+      handleClick = () => {
+        alert("点击了")
+      }
       render() {
         return (
-          <div>
-
-
-          </div>
+          <button onClick={this.handleClick}>按钮</button>
         )
       }
     }
@@ -33,4 +33,4 @@
   </script>
 </body>
 
-</html> 
+</html>
