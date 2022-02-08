@@ -1,0 +1,6 @@
+.todo-main {
+  list-style: none;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  border-bottom: none;
+}

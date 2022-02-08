@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.todo-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  padding-top: 100px;
+  box-sizing: border-box;
+}
+.todo-wrap {
+  width: 600px;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  border-radius: 8px;
+  padding: 20px;
+}

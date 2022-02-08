@@ -1,0 +1,17 @@
+li {
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+li input {
+  margin-right: 10px;
+}
+.btn-delete {
+  float: right;
+  padding: 4px 8px;
+  margin-top: -4px;
+  background-color: #da4f49;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
