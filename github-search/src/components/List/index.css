@@ -1,0 +1,26 @@
+.list {
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.list-item {
+  width: 180px;
+  height: 200px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.list-item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid #999;
+}
+.list-item span {
+  margin-top: 10px;
+}
